@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/item_view_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background"/>
+    <TextView
+        android:id="@+id/item_view_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:padding="@dimen/dp_10"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:text="哈哈哈哈哈哈"/>
+
+</LinearLayout>
